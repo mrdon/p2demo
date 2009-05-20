@@ -443,6 +443,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/accesslog-plugin/accesslog-plugin.iml" filepath="$PROJECT_DIR$/accesslog-plugin/accesslog-plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/activeobjects-plugin/activeobjects-plugin.iml" filepath="$PROJECT_DIR$/activeobjects-plugin/activeobjects-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../felix-framework-1.2.1/org.apache.felix.framework.iml" filepath="$PROJECT_DIR$/../felix-framework-1.2.1/org.apache.felix.framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/p2demo-parent.iml" filepath="$PROJECT_DIR$/p2demo-parent.iml" />
     </modules>
   </component>
@@ -509,6 +510,7 @@
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
+    <mapping directory="$PROJECT_DIR$/../felix-framework-1.2.1" vcs="svn" />
     <mapping directory="$PROJECT_DIR$/activeobjects-plugin" vcs="Git" />
   </component>
   <component name="VssConfiguration">
@@ -846,7 +848,7 @@
   </component>
   <component name="org.twdata.maven.cli.CliClientProjectComponent">
     <commands>
-      <command host="localhost" port="4330" command="compile resources jar install" />
+      <command host="localhost" port="4336" command="pua" />
       <command host="localhost" port="4331" command="compile resources jar install" />
       <command host="localhost" port="4332" command="compile resources jar install" />
     </commands>

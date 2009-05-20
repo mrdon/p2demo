@@ -48,7 +48,6 @@ public class AccessLogFilter implements Filter
             entry.setUser(user);
             entry.setUrl(url);
             entry.save();
-            System.out.println("log has " + entityManager.count(LogEntry.class) + " entries");
         }
         catch (SQLException e)
         {

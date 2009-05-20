@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project relativePaths="false" version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activeobjects-plugin/pom.xml" afterPath="$PROJECT_DIR$/activeobjects-plugin/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activeobjects-plugin/src/main/java/com/atlassian/labs/activeobjects/internal/DefaultEntityManagerProvider.java" afterPath="$PROJECT_DIR$/activeobjects-plugin/src/main/java/com/atlassian/labs/activeobjects/internal/DefaultEntityManagerProvider.java" />
-    </list>
+    <list default="true" readonly="true" name="Default" comment="" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="p2demo-parent.iws" />
   </component>
@@ -25,6 +22,34 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/../felix-framework-1.2.1/src/main/java/org/apache/felix/framework/Felix.java" line="4179" class="org.apache.felix.framework.Felix" package="org.apache.felix.framework">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="bundle.getInfo() == null" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/../felix-framework-1.2.1/src/main/java/org/apache/felix/framework/Felix.java" line="2565" class="org.apache.felix.framework.Felix" package="org.apache.felix.framework">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -58,7 +83,24 @@
       </breakpoint>
     </breakpoint_any>
     <breakpoint_rules />
-    <ui_properties />
+    <ui_properties>
+      <property name="exception_breakpoints_flattenPackages" value="true" />
+      <property name="line_breakpoints_groupByClasses" value="true" />
+      <property name="exception_breakpoints_groupByMethods" value="false" />
+      <property name="method_breakpoints_viewId" value="TABLE" />
+      <property name="line_breakpoints_viewId" value="TABLE" />
+      <property name="exception_breakpoints_groupByClasses" value="true" />
+      <property name="method_breakpoints_groupByMethods" value="false" />
+      <property name="field_breakpoints_flattenPackages" value="true" />
+      <property name="line_breakpoints_flattenPackages" value="true" />
+      <property name="exception_breakpoints_viewId" value="TABLE" />
+      <property name="field_breakpoints_groupByClasses" value="true" />
+      <property name="method_breakpoints_flattenPackages" value="true" />
+      <property name="field_breakpoints_viewId" value="TABLE" />
+      <property name="line_breakpoints_groupByMethods" value="false" />
+      <property name="method_breakpoints_groupByClasses" value="true" />
+      <property name="field_breakpoints_groupByMethods" value="false" />
+    </ui_properties>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="p2demo-parent" />
@@ -68,16 +110,16 @@
       <file leaf-file-name="AccessLogFilter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accesslog-plugin/src/main/java/com/atlassian/labs/accesslog/AccessLogFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="5" selection-start="564" selection-end="858" vertical-scroll-proportion="0.0">
+            <state line="17" column="13" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccessLogDisplayServlet.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AccessLogDisplayServlet.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accesslog-plugin/src/main/java/com/atlassian/labs/accesslog/AccessLogDisplayServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="40" selection-start="1824" selection-end="1824" vertical-scroll-proportion="0.7183099">
+            <state line="33" column="9" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,10 +127,73 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Felix.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../felix-framework-1.2.1/src/main/java/org/apache/felix/framework/Felix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2573" column="29" selection-start="90949" selection-end="90949" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlainSocketImpl.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/../Classes/classes.jar!/java/net/PlainSocketImpl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="101" column="24" selection-start="4506" selection-end="4506" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Unsafe.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/../Classes/classes.jar!/sun/misc/Unsafe.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="273" column="23" selection-start="9053" selection-end="9053" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Thread.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/../Classes/classes.jar!/java/lang/Thread.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="141" column="35" selection-start="5379" selection-end="5379" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Object.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/../Classes/classes.jar!/java/lang/Object.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="74" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="R4SearchPolicyCore.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/felix/org.apache.felix.main/1.2.1-atlassian-5/org.apache.felix.main-1.2.1-atlassian-5.jar!/org/apache/felix/framework/searchpolicy/R4SearchPolicyCore.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="140" column="17" selection-start="11624" selection-end="11624" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="R4SearchPolicyCore.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../felix-framework-1.2.1/src/main/java/org/apache/felix/framework/searchpolicy/R4SearchPolicyCore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1131" column="41" selection-start="48514" selection-end="48514" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="atlassian-plugin.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accesslog-plugin/src/main/resources/atlassian-plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="19" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0">
+            <state line="39" column="0" selection-start="1701" selection-end="1701" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,7 +220,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accesslog-plugin/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="20" selection-start="981" selection-end="981" vertical-scroll-proportion="-12.384615">
+            <state line="66" column="47" selection-start="2390" selection-end="2390" vertical-scroll-proportion="-15.75862">
               <folding />
             </state>
           </provider>
@@ -130,10 +235,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogEntry.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LogEntry.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/accesslog-plugin/src/main/java/com/atlassian/labs/accesslog/LogEntry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="28" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
+            <state line="12" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.23960066">
               <folding />
             </state>
           </provider>
@@ -185,11 +290,21 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="activeobjects-plugin" />
+          <option name="myItemId" value="accesslog-plugin" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="p2demo-parent" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="accesslog-plugin" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="activeobjects-plugin" />
+          <option name="myItemId" value="accesslog-plugin" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -202,6 +317,14 @@
           <option name="myItemId" value="accesslog-plugin" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="accesslog-plugin" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
@@ -214,6 +337,48 @@
         </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="accesslog-plugin" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="main" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="resources" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="p2demo-parent" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="accesslog-plugin" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="accesslog-plugin" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="main" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="accesslog" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -246,11 +411,11 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.lastSelected" value="org.twdata.maven.cli.CliClientProjectComponent" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="RunManagerConfig.showSettingsBeforeRunnig" value="false" />
   </component>
-  <component name="RunManager" selected="Maven.activeobjects cli">
+  <component name="RunManager" selected="Maven.accesslog jira cli">
     <tempConfiguration default="false" name="com.atlassian.labs.activeobjects.internal" type="JUnit" factoryName="JUnit" enabled="false" merge="false" sample_coverage="true" runner="emma">
       <module name="p2demo-parent" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -430,7 +595,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="INHERITANCE_CHECK_DISABLED" VALUE="false" />
     </configuration>
-    <configuration default="false" name="webapp" type="MavenRunConfiguration" factoryName="Maven">
+    <configuration default="false" name="webapp refapp" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myCoreSettings">
           <MavenGeneralSettings>
@@ -454,7 +619,7 @@
             </option>
             <option name="runMavenInBackground" value="false" />
             <option name="skipTests" value="false" />
-            <option name="vmOptions" value="-Dcontainer=jetty6x" />
+            <option name="vmOptions" value="-Dcontainer=jetty6x -Dsal.version=2.0.7-SNAPSHOT" />
           </MavenRunnerSettings>
         </option>
         <option name="myRunnerParameters">
@@ -484,7 +649,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="accesslog cli" type="MavenRunConfiguration" factoryName="Maven">
+    <configuration default="false" name="accesslog jira cli" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myCoreSettings">
           <MavenGeneralSettings>
@@ -508,14 +673,14 @@
             </option>
             <option name="runMavenInBackground" value="false" />
             <option name="skipTests" value="false" />
-            <option name="vmOptions" value="" />
+            <option name="vmOptions" value="-Dcli.port=4336" />
           </MavenRunnerSettings>
         </option>
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
             <option name="goals">
               <list>
-                <option value="refapp:cli" />
+                <option value="jira:cli" />
               </list>
             </option>
             <option name="profiles">
@@ -532,7 +697,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="activeobjects cli" type="MavenRunConfiguration" factoryName="Maven">
+    <configuration default="false" name="webapp jira" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myCoreSettings">
           <MavenGeneralSettings>
@@ -556,14 +721,14 @@
             </option>
             <option name="runMavenInBackground" value="false" />
             <option name="skipTests" value="false" />
-            <option name="vmOptions" value="-Dcli.port=4442" />
+            <option name="vmOptions" value="-Dwebapp.version=4.0-SNAPSHOT -Dbundled.plugins=com.atlassian.sal:sal-jira-plugin:2.0.7-SNAPSHOT" />
           </MavenRunnerSettings>
         </option>
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
             <option name="goals">
               <list>
-                <option value="refapp:cli" />
+                <option value="jira:run" />
               </list>
             </option>
             <option name="profiles">
@@ -580,11 +745,77 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="4">
+    <configuration default="false" name="webapp confluence" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myCoreSettings">
+          <MavenGeneralSettings>
+            <option name="checksumPolicy" value="fail" />
+            <option name="failureBehavior" value="fail-fast" />
+            <option name="localRepository" value="" />
+            <option name="mavenHome" value="$PROJECT_DIR$/../../local/maven-2.0.10" />
+            <option name="mavenSettingsFile" value="" />
+            <option name="nonRecursive" value="false" />
+            <option name="pluginUpdatePolicy" value="false" />
+            <option name="printErrorStackTraces" value="false" />
+            <option name="usePluginRegistry" value="false" />
+            <option name="workOffline" value="false" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="jreName" value="1.5" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="runMavenInBackground" value="false" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="-Dwebapp.version=3.0-beta3" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="goals">
+              <list>
+                <option value="confluence:debug" />
+              </list>
+            </option>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="workingDirPath" value="$PROJECT_DIR$/activeobjects-plugin" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <RunnerSettings RunnerId="Profile ">
+        <option name="myExternalizedOptions" value="&#10;additional-options=&#10;snapshots-dir=&#10;" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="debug" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5005" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method>
+        <option name="Make" value="true" />
+      </method>
+    </configuration>
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.com.atlassian.labs.activeobjects.internal" />
-      <item index="1" class="java.lang.String" itemvalue="Maven.webapp" />
-      <item index="2" class="java.lang.String" itemvalue="Maven.accesslog cli" />
-      <item index="3" class="java.lang.String" itemvalue="Maven.activeobjects cli" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.webapp refapp" />
+      <item index="2" class="java.lang.String" itemvalue="Maven.accesslog jira cli" />
+      <item index="3" class="java.lang.String" itemvalue="Maven.webapp jira" />
+      <item index="4" class="java.lang.String" itemvalue="Maven.webapp confluence" />
+      <item index="5" class="java.lang.String" itemvalue="Remote.debug" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -688,55 +919,6 @@
     <find-history />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/net/java/dev/activeobjects/activeobjects/0.8.2/activeobjects-0.8.2.jar!/net/java/ao/EntityManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="149" selection-end="149" vertical-scroll-proportion="0.07465008">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accesslog-plugin/src/main/java/com/atlassian/labs/accesslog/LogEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="28" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activeobjects-plugin/src/test/java/com/atlassian/labs/activeobjects/internal/TestDefaultEntityManagerProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="946" selection-end="946" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accesslog-plugin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="20" selection-start="981" selection-end="981" vertical-scroll-proportion="-12.384615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accesslog-plugin/src/main/java/com/atlassian/labs/accesslog/AccessLogFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="5" selection-start="564" selection-end="858" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accesslog-plugin/src/main/resources/atlassian-plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="19" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/../Classes/classes.jar!/java/util/Map.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/activeobjects-plugin/src/main/java/com/atlassian/labs/activeobjects/internal/DefaultEntityManagerProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="0" selection-start="2012" selection-end="2012" vertical-scroll-proportion="0.0">
@@ -751,12 +933,103 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/atlassian/plugins/atlassian-plugins-osgi/2.2.0.rc3/atlassian-plugins-osgi-2.2.0.rc3.jar!/com/atlassian/plugin/osgi/container/felix/FelixOsgiContainerManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="37" selection-start="6441" selection-end="6441" vertical-scroll-proportion="0.5833333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/felix/org.apache.felix.main/1.2.1-atlassian-5/org.apache.felix.main-1.2.1-atlassian-5.jar!/org/apache/felix/framework/Felix.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="254" column="108" selection-start="15759" selection-end="15759" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/felix/org.apache.felix.main/1.2.1-atlassian-5/org.apache.felix.main-1.2.1-atlassian-5.jar!/org/apache/felix/framework/searchpolicy/R4SearchPolicyCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="140" column="17" selection-start="11624" selection-end="11624" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../felix-framework-1.2.1/src/main/java/org/apache/felix/framework/searchpolicy/R4SearchPolicyCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1131" column="41" selection-start="48514" selection-end="48514" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../felix-framework-1.2.1/src/main/java/org/apache/felix/framework/Felix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2573" column="29" selection-start="90949" selection-end="90949" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/../Classes/classes.jar!/java/net/PlainSocketImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="24" selection-start="4506" selection-end="4506" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/../Classes/classes.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="273" column="23" selection-start="9053" selection-end="9053" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/../Classes/classes.jar!/java/lang/Thread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="35" selection-start="5379" selection-end="5379" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/../Classes/classes.jar!/java/lang/Object.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="74" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accesslog-plugin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="47" selection-start="2390" selection-end="2390" vertical-scroll-proportion="-15.75862">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accesslog-plugin/src/main/resources/atlassian-plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1701" selection-end="1701" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/accesslog-plugin/src/main/java/com/atlassian/labs/accesslog/AccessLogDisplayServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="40" selection-start="1824" selection-end="1824" vertical-scroll-proportion="0.7183099">
+        <state line="33" column="9" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accesslog-plugin/src/main/java/com/atlassian/labs/accesslog/AccessLogFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accesslog-plugin/src/main/java/com/atlassian/labs/accesslog/LogEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.23960066">
+          <folding />
         </state>
       </provider>
     </entry>

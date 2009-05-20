@@ -18,7 +18,22 @@
 
     <servlet name='accesslog display' class='com.atlassian.labs.accesslog.AccessLogDisplayServlet' key='accesslog-display'>
         <url-pattern>/accesslog</url-pattern>
+        <url-pattern>/accesslog.*</url-pattern>
     </servlet>
 
+    <web-item key="refappAdminMenuLink" section="system.admin/general" application="refapp">
+        <label>Access Log</label>
+        <link>/plugins/servlet/accesslog</link>
+    </web-item>
+
+    <web-item key="jiraAdminMenuLink" section="system.admin/system" weight="91" application="jira">
+        <label>Access Log</label>
+        <link>/plugins/servlet/accesslog</link>
+    </web-item>
+
+    <web-item key="confluenceAdminMenuLink" section="system.admin/configuration" application="com.atlassian.confluence">
+        <label>Access Log</label>
+        <link>/plugins/servlet/accesslog.action</link>
+    </web-item>
 
 </atlassian-plugin>

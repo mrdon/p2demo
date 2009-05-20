@@ -32,9 +32,11 @@ public class AccessLogDisplayServlet extends HttpServlet
             httpServletResponse.sendError(HttpServletResponse.SC_FORBIDDEN, "Only accessible via system admins");
             return;
         }
-
+        httpServletResponse.setContentType("text/html");
         PrintWriter out = httpServletResponse.getWriter();
-        out.write("<html><body>");
+        out.write("<html><head>");
+        out.write("<meta name=\"decorator\" content=\"atl.admin\">");
+        out.write("</head><body>");
         out.write("<h2> Access Log </h2>");
         out.write("<table><tr><th>User</th><th>URL</th></tr>");
         try
@@ -53,5 +55,6 @@ public class AccessLogDisplayServlet extends HttpServlet
             throw new ServletException(e);
         }
         out.write("</table></body></html>");
+        out.close();   
     }
 }
