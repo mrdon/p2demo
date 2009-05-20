@@ -1,0 +1,17 @@
+<atlassian-plugin key="com.atlassian.labs.activeobjects" name="${project.name}" pluginsVersion="2">
+    <plugin-info>
+        <description>${project.description}</description>
+        <version>1.0</version>
+        <vendor name="${project.organization.name}" url="${project.organization.url}"/>
+        <bundle-instructions>
+            <Export-Package>net.java.ao.*,com.atlassian.labs.activeobjects.external</Export-Package>
+        </bundle-instructions>
+    </plugin-info>
+
+    <component-import key="applicationProperties" interface="com.atlassian.sal.api.ApplicationProperties" />
+
+    <component key="entityManagerProvider" class="com.atlassian.labs.activeobjects.internal.DefaultEntityManagerProvider" public="true">
+        <interface>com.atlassian.labs.activeobjects.external.EntityManagerProvider</interface>
+    </component>
+
+</atlassian-plugin>

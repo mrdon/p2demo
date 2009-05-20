@@ -1,0 +1,24 @@
+<atlassian-plugin key="com.atlassian.labs.accesslog-plugin" name="accesslog-plugin" plugins-version="2">
+    <plugin-info>
+        <description>${project.description}</description>
+        <version>${project.version}</version>
+        <!-- TODO: Add vendor details -->
+        <!--
+        <vendor name="Example Company" url="http://www.example.com"/>
+        -->
+    </plugin-info>
+
+    <component-import key="entityManagerProvider" interface="com.atlassian.labs.activeobjects.external.EntityManagerProvider" />
+    <component-import key="userManager" interface="com.atlassian.sal.api.user.UserManager" />
+
+    <servlet-filter name='accesslog filter' class='com.atlassian.labs.accesslog.AccessLogFilter' key='accesslog'
+            filter-location="before-dispatch">
+        <url-pattern>/*</url-pattern>
+    </servlet-filter>
+
+    <servlet name='accesslog display' class='com.atlassian.labs.accesslog.AccessLogDisplayServlet' key='accesslog-display'>
+        <url-pattern>/accesslog</url-pattern>
+    </servlet>
+
+
+</atlassian-plugin>
