@@ -2,10 +2,6 @@
     <plugin-info>
         <description>${project.description}</description>
         <version>${project.version}</version>
-        <!-- TODO: Add vendor details -->
-        <!--
-        <vendor name="Example Company" url="http://www.example.com"/>
-        -->
     </plugin-info>
 
     <component-import key="entityManagerProvider" interface="com.atlassian.labs.activeobjects.external.EntityManagerProvider" />
